@@ -178,7 +178,7 @@ app.post("/chat", async (req, res) => {
         contents,
         config: {
             systemInstruction:
-            "You are a chatbot named Gemini. Answer as concisely as possible and use html styling for better display.",
+            "You are a helpful assistant. Answer as concisely as possible and use html styling for better display. response must be in bahasa indonesia.",
         },
         });
 
